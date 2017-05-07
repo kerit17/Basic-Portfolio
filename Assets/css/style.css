@@ -1,63 +1,147 @@
-body {
-  font-size: 24px;
-  line-height: 32px;
-  color: #333;
+/*all pages banner, connect, and footer*/
+* {
+  color: #777777;
+  box-sizing: border-box;
 }
 
 header {
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
-}
-
-section {
-  margin-bottom: 20px;
-  background: #ccc;
-}
-
-#positionfixed {
-  position: fixed;  
-  width: 20%;
- }
-
-#headingpara {
-  padding: 100px;
-}
-*#middle {
-  width: 33.3%;
-  color: #fff;
-  background: #888;
-}
-
-#right {
-  width: 33.3%;
-  color: #fff;
-  background: #666;
-}
-
-#full {
-  width: 100%;
-  background: #eee;
-}
-
-#division {
-  padding: 20px;
-  margin-top: 20px;
-  background: #6ea3da;
-}
-
-aside {
+  font-size: 36px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 25px;
   float: left;
-  width: 33%;
-  height: 200px;
-  padding: 20px;
-  margin-left: 30px;
-  background: #fff;
-  border: 1px solid #eee;
+  margin-left: 20px;
+  box-sizing: border-box;
+  }
+
+#banner {
+  box-sizing: border-box;
+  border-style: solid
+  border-color: #cccccc;
+  background-color: white;
+  height: 82px;
+}
+
+.tabs {
+  float: right;
+  padding: 25px;
+  display: inline-block;
+  background: white
+}
+
+.connect {
+  float: left;
+  border: solid #dddddd;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  width: 270px;
+  margin-left: 60px
 }
 
 footer {
   padding: 20px;
   clear: both;
-  background: #ccc;
+  background: #666666;
+  border-top: solid #4aaaa5;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+/*page heading*/
+h1 {
+  font-size: 24px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  padding: 10px;
+}
+
+/*body page info*/
+body {
+  font-size: 12px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background: #eee;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 20px;
+  margin-left: 50px;
+  text-align: left;
+  float: left;
+}
+
+/*<--Index-->*/
+.divbody2 {
+  box-sizing: border-box;
+  float: left;  
+  border: solid #dddddd;
+  padding: 10px;
+  background: white;
+  overflow: initial;
+  width: 650px;
+
+}
+section {
+  margin-bottom: 20px;
+}
+/*contact page*/
+.messageform {
+  height: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contactform {
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.submitform {
+  width: 20%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  background-color: #4aaaa5;
+}
+
+/*About Me*/
+.bio {
+  float: left;
+  margin: 10px;
+  font-size: 12px;
+}
+
+/*Portfolio references*/
+h2 {
+  height: 50px;
+  width: 259px;
+  padding: 12px 22px;
+  box-sizing: padding-box;
+  color: white;
+  background-color: #4aaaa5;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  z-index: 2;
+  margin-top: -75px
+}
+
+.container {
+	position: relative;
+	height: 200px;
+	top: -25px;
+  float: left;
+  padding: 20px;
 }
